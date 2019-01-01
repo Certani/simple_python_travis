@@ -1,4 +1,7 @@
+# we only have to define a programming language (default is python 2.7)
 language: python
-
+# and a test environment
 script:
   - pytest
+ 
+ # further environment setups for python can be found here: https://docs.travis-ci.com/user/languages/python/
